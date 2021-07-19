@@ -1,0 +1,42 @@
+server:
+  port: 28082
+spring:
+  application:
+    name: lagou-cloud-email-service
+  mail:
+    host: smtp.qq.com
+    username: zhao_wc@qq.com
+    password: mflljbtcdubzjdjb
+    port: 465
+    properties:
+      mail:
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+      from: zhao_wc@qq.com
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}:@project.version@
+    metadata-map:
+      cluster: cl1
+      region: rn1
+  client:
+    service-url:
+      defaultZone: http://LagouCloudEurekaServerB:8762/eureka,http://LagouCloudEurekaServerA:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#email
+#spring.mail.host=smtp.qq.com
+#spring.mail.username=zhao_wc@qq.com
+#spring.mail.password=zwc,.310607
+#spring.mail.port=465
+##设置为SSL协议
+#spring.mail.properties.mail.smtp.socketFactory.class=javax.net.ssl.SSLSocketFactory
+#spring.mail.properties.from=zhao_wc@qq.com

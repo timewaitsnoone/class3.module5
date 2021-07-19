@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-code-service/lagou-cloud-code-service.iml" filepath="$PROJECT_DIR$/lagou-cloud-code-service/lagou-cloud-code-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-common/lagou-cloud-common.iml" filepath="$PROJECT_DIR$/lagou-cloud-common/lagou-cloud-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-email-service/lagou-cloud-email-service.iml" filepath="$PROJECT_DIR$/lagou-cloud-email-service/lagou-cloud-email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-eureka-service-8761/lagou-cloud-eureka-service-8761.iml" filepath="$PROJECT_DIR$/lagou-cloud-eureka-service-8761/lagou-cloud-eureka-service-8761.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-eureka-service-8762/lagou-cloud-eureka-service-8762.iml" filepath="$PROJECT_DIR$/lagou-cloud-eureka-service-8762/lagou-cloud-eureka-service-8762.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-gateway-29002/lagou-cloud-gateway-29002.iml" filepath="$PROJECT_DIR$/lagou-cloud-gateway-29002/lagou-cloud-gateway-29002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-cloud-user-service/lagou-cloud-user-service.iml" filepath="$PROJECT_DIR$/lagou-cloud-user-service/lagou-cloud-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lagou-parent.iml" filepath="$PROJECT_DIR$/lagou-parent.iml" />
+    </modules>
+  </component>
+</project>

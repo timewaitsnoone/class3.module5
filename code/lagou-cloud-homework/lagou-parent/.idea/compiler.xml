@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lagou-cloud-eureka-service-8761" />
+        <module name="lagou-cloud-eureka-service-8762" />
+        <module name="lagou-cloud-common" />
+        <module name="lagou-cloud-gateway-29002" />
+        <module name="lagou-cloud-code-service" />
+        <module name="lagou-cloud-user-service" />
+        <module name="lagou-cloud-email-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lagou-cloud-code-service" target="11" />
+      <module name="lagou-cloud-common" target="11" />
+      <module name="lagou-cloud-email-service" target="11" />
+      <module name="lagou-cloud-eureka-service-8761" target="11" />
+      <module name="lagou-cloud-eureka-service-8762" target="11" />
+      <module name="lagou-cloud-gateway-29002" target="11" />
+      <module name="lagou-cloud-gateway29002" target="11" />
+      <module name="lagou-cloud-user-service" target="11" />
+      <module name="lagou-parent" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lagou-cloud-code-service" options="-parameters" />
+      <module name="lagou-cloud-common" options="-parameters" />
+      <module name="lagou-cloud-email-service" options="-parameters" />
+      <module name="lagou-cloud-eureka-service-8761" options="-parameters" />
+      <module name="lagou-cloud-eureka-service-8762" options="-parameters" />
+      <module name="lagou-cloud-gateway-29002" options="-parameters" />
+      <module name="lagou-cloud-gateway29002" options="-parameters" />
+      <module name="lagou-cloud-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

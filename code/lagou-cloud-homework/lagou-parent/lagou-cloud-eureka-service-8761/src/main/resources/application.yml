@@ -1,0 +1,13 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: lagou-cloud-eureka-service
+eureka:
+  instance:
+    hostname: LagouCloudEurekaServer8761
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
+    register-with-eureka: true
+    fetch-registry: true
